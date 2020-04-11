@@ -9,7 +9,7 @@ from systemids import SYSTEMIDS
 from typeids import TYPEIDS
 
 def check_connection():
-    
+
     # Check Internet connection
     try:
         urllib.request.urlopen('http://google.com')
@@ -121,8 +121,8 @@ def format_market_data(gibberish):
 def display_market_data(item, data):
 
     # Template for clean output
-    sell_template =  "{5:13}  {0:13}  {1:16}  {3:12}  {4:75}  {2:10}  "
-    buy_template =   "{0:13}  {2:13}  {1:16}  {4:12}  {5:75}  {3:10}  "
+    sell_template =  "{5:13}  {0:13}  {1:16}  {3:16}  {4:75}  {2:10}  "
+    buy_template =   "{0:13}  {2:13}  {1:16}  {4:16}  {5:75}  {3:10}  "
 
     # Request ASCII text art for title
     r = requests.get(f"http://artii.herokuapp.com/make?text={item}")
