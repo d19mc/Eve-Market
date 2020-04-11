@@ -1,0 +1,19 @@
+CHANGELOGS
+
+v1.0
+
+Application has functionality to search the Eve Market for items in a region and return the Eve Market Data.
+Application also has functionality to compare prices and a couple other factors for the same item in multiple regions
+
+v1.1
+
+--BUGS--
+Fixed bug where you couldn't input items when there was a prefix of an integer.
+Fixed bug where you couldn't input null sec regions in lowercase letters.
+Fixed bug where 4 errors were reported if internet was disconnected in the middle of the application.
+
+--FUNCTIONALTIY--
+Added a tab to the 'search' command output in the sell order data that shows the total amount of item that was placed on the market before any sales occurred.
+
+--EXTRAS--
+Tided the output of the 'search' command

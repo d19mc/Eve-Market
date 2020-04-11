@@ -1,0 +1,5 @@
+-- Future Plans --
+These are ideas I might add but might not depending on how im feeling at the time lol :)
+
+add function to calculate amount of minerals given after reprocessing ores/compressed ores for facility.
+create a structure browser to check for structures in each system.
