@@ -9,6 +9,7 @@ from systemids import SYSTEMIDS
 from typeids import TYPEIDS
 
 def check_connection():
+    
     # Check Internet connection
     try:
         urllib.request.urlopen('http://google.com')
